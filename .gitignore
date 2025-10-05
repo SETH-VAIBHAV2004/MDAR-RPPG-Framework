@@ -1,0 +1,36 @@
+# Exclude datasets
+Datasets/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Model files (if they are large)
+*.h5
+*.pkl
+*.model
+*.pth
+outputs/*/mdar_epoch_*.pth
+outputs/*/mdar_best.pth
+
+# Output files that might be generated
+outputs/*.png
+outputs/*.jpg
+outputs/*.mp4
